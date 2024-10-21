@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3E5dWJuNWU1ZXI3bzBlemJ2N2F0OWQ2dWkybm14YW9wMnBsZDRhZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aRZ4vTsHnyW6A/giphy.webp');
+    background-size: auto;
+}
+  
+  .container-player {
+      width: 32rem;
+      height: 25rem;
+      border-radius: 10px;
+      background-color: #7a839a;
+      box-shadow: 4px 4px 5px #012b61;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 1em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+ 
+  
+      }
+     
+     
+  
+  .container-player > h1 {
+      font-size: 2rem;
+      color: #b9cfe9;
+  }
+  .container-album {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .container-album > img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      margin: 1rem 0 1rem 0;
+  }
+  
+  .container-player > .controls {
+      width: 100%;
+      height: 48%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      }
+      .controls > audio {
+      width: 100%;
+      height: 2rem;
+      margin-top: 1rem;
+      }
+      .player_controls {
+      width: 100%;
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      cursor: pointer;
+      }
+      .player_controls > i:hover {
+        --glow-color: rgb(176, 255, 189);
+        --glow-spread-color: rgba(123, 255, 174, 0.781);
+      --enhanced-glow-color: rgb(206, 255, 218);
+      --btn-color: rgb(61, 136, 77);
+      color: var(--glow-color);
+      font-size: 25px;
+      font-weight: bold;
+      background-color: var(--btn-color);
+      border-radius: 1em;
+      outline: none;
+      box-shadow: 0 0 0em .1em var(--glow-color),
+             0 0 0em 0.1em var(--glow-spread-color),
+             inset 0 0 .0em .0em var(--glow-color);
+      text-shadow: 0 0 .0em var(--glow-color);
+      }
+      #sas{
+        width: 500px;
+        height: 250px;
+        margin: 90px;
+        --glow-color: rgb(176, 255, 189);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 1em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+      }
